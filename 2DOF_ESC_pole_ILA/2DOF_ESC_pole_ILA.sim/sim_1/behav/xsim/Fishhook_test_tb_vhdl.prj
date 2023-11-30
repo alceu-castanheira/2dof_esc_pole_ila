@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../2DOF_ESC_pole_ILA.srcs/sources_1/new/ESC_PID_Control_Pkg.vhd" \
+"../../../../2DOF_ESC_pole_ILA.srcs/sources_1/new/Fishhook_test_FSM.vhd" \
+"../../../../2DOF_ESC_pole_ILA.srcs/sources_1/new/fpupack.vhd" \
+"../../../../2DOF_ESC_pole_ILA.srcs/sources_1/new/Fishhook_test_top_module.vhd" \
+"../../../../2DOF_ESC_pole_ILA.srcs/sim_1/new/Fishhook_test_tb.vhd" \
+
+# Do not sort compile order
+nosort

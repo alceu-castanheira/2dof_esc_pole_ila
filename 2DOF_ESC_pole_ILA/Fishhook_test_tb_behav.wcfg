@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Fishhook_test_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Fishhook_test_tb" />
+            <top_module name="esc_pid_control_pkg" />
+            <top_module name="fpupack" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10261016666fs"></ZoomStartTime>
+      <ZoomEndTime time="10319916667fs"></ZoomEndTime>
+      <Cursor1Time time="10312217000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Fishhook_test_tb/s_clk" type="logic">
+      <obj_property name="ElementShortName">s_clk</obj_property>
+      <obj_property name="ObjectShortName">s_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/s_rst" type="logic">
+      <obj_property name="ElementShortName">s_rst</obj_property>
+      <obj_property name="ObjectShortName">s_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/s_start" type="logic">
+      <obj_property name="ElementShortName">s_start</obj_property>
+      <obj_property name="ObjectShortName">s_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/s_data_ready" type="logic">
+      <obj_property name="ElementShortName">s_data_ready</obj_property>
+      <obj_property name="ObjectShortName">s_data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/s_ready" type="logic">
+      <obj_property name="ElementShortName">s_ready</obj_property>
+      <obj_property name="ObjectShortName">s_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/TEST_FISHHOOK/s_rom_addr" type="array">
+      <obj_property name="ElementShortName">s_rom_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rom_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Fishhook_test_tb/s_rom_out" type="array">
+      <obj_property name="ElementShortName">s_rom_out[26:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rom_out[26:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
